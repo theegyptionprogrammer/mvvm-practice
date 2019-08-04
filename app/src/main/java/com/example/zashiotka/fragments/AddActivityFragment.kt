@@ -5,17 +5,14 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import com.example.zashiotka.R
-import com.example.zashiotka.database.IzashiotkaModle
 import com.example.zashiotka.database.Zashiotka
-import com.example.zashiotka.views.AddStudentView
+import com.example.zashiotka.mvvm_components.IzashiotkaModle
 import kotlinx.android.synthetic.main.view_add_student.*
 
 class AddActivityFragment : Fragment()  {
 
     private lateinit var moduleView : IzashiotkaModle
-    private lateinit var contentview : AddStudentView
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_add_acitvity, container , false)

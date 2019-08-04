@@ -10,9 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.zashiotka.R
 import com.example.zashiotka.adapters.MainRVadapter
-import com.example.zashiotka.database.ApplicationScope
-import com.example.zashiotka.database.ZashiotkaModleView
-import com.example.zashiotka.views.HomeStudentView
+import com.example.zashiotka.mvvm_components.ApplicationScope
+import com.example.zashiotka.mvvm_components.HomeStudentView
+import com.example.zashiotka.mvvm_components.ZashiotkaModleView
 import kotlinx.android.synthetic.main.fragment_home_activity.*
 import toothpick.Toothpick
 

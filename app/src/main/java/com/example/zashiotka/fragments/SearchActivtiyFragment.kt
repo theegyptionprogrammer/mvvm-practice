@@ -7,8 +7,6 @@ import android.view.*
 import android.widget.SearchView
 import com.example.zashiotka.R
 import com.example.zashiotka.adapters.MainRVadapter
-import com.example.zashiotka.views.SearchStudentView
-import kotlinx.android.synthetic.main.fragment_home_activity.view.*
 import kotlinx.android.synthetic.main.fragment_search_activity.*
 
 class SearchActivtiyFragment : Fragment()  {

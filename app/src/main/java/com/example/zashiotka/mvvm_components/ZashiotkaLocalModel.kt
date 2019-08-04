@@ -1,10 +1,14 @@
-package com.example.zashiotka.database
+package com.example.zashiotka.mvvm_components
+import com.example.zashiotka.database.Zashiotka
+import com.example.zashiotka.database.ZashiotkaApplication
+import com.example.zashiotka.database.ZashiotkaDatabase
 import javax.inject.Inject
 
 
 class ZashiotkaLocalModel @Inject constructor() : IzashiotkaModle {
 
-    private var db = ZashiotkaDatabase.getInsance(ZashiotkaApplication.instance.applicationContext)
+    private var db =
+        ZashiotkaDatabase.getInsance(ZashiotkaApplication.instance.applicationContext)
 
     override fun getZashiotka(): ArrayList<Zashiotka> = db!!.zashiotkaDao().getAll()
 

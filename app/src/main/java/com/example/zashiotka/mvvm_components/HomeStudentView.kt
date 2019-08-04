@@ -1,12 +1,10 @@
-package com.example.zashiotka.views
+package com.example.zashiotka.mvvm_components
 
 import android.content.Context
-import android.support.v7.widget.LinearLayoutManager
 import android.util.AttributeSet
 import android.widget.RelativeLayout
 import com.example.zashiotka.adapters.MainRVadapter
 import com.example.zashiotka.database.Zashiotka
-import kotlinx.android.synthetic.main.fragment_home_activity.view.*
 
 class HomeStudentView @JvmOverloads constructor(
     context: Context,

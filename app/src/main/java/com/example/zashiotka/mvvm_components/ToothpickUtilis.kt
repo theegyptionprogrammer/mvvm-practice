@@ -1,4 +1,4 @@
-package com.example.zashiotka.database
+package com.example.zashiotka.mvvm_components
 
 import toothpick.Toothpick
 import toothpick.config.Module
