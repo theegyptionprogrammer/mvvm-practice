@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/profilePhotoTV"
+            android:layout_width="170dp"
+            android:layout_height="200dp"/>
+
+    <TextView
+            android:id="@+id/studentNameTV"
+            android:hint="@string/studnet_name"
+            android:layout_marginLeft="180dp"
+            android:layout_marginStart="180dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:id="@+id/studentIdTV"
+            android:hint="@string/student_id"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginStart="180dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:id="@+id/englishTV"
+            android:text="@string/english"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="180dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:id="@+id/informaticsTV"
+            android:text="@string/informatics"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginStart="180dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+
+</RelativeLayout>
