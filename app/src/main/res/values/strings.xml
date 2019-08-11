@@ -11,4 +11,7 @@
     <string name="student_id">student id </string>
     <string name="update">update</string>
     <string name="clear">clear</string>
+    <string name="added">new zashiotka have been added</string>
+    <string name="profile_photo">profile photo</string>
+    <string name="error_save">can\'t add zashiotka</string>
 </resources>

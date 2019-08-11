@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".fragments.MainFragment">
+
 
     <LinearLayout
             android:id="@+id/containerView"
@@ -14,9 +14,8 @@
 
         <include
                 android:id="@+id/createTaskView"
-                layout="@layout/view_add_student"/>
+                layout="@layout/view_create_zashiotka"/>
 
     </LinearLayout>
 
-
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
