@@ -7,5 +7,5 @@ typealias SuccessCallback = (Boolean) -> Unit
 interface IZashiotkaModule {
 
     fun insert(zashiotka: Zashiotka , callback: SuccessCallback)
-    fun retriviveData() : MutableList<Zashiotka>
+    fun retriviveData(callback: (List<Zashiotka>?)-> Unit)
 }

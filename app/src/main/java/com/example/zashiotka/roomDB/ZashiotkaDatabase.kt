@@ -17,7 +17,7 @@ abstract class ZashiotkaDatabase : RoomDatabase(){
             if (instance == null){
                 synchronized(ZashiotkaDatabase::class){
                     instance = Room.databaseBuilder(context.applicationContext , ZashiotkaDatabase::class.java , "zashiotkaDB")
-                        .fallbackToDestructiveMigration()
+                        .allowMainThreadQueries()
                         .build()
                 }
             }

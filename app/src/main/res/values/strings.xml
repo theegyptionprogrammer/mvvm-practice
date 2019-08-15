@@ -14,4 +14,5 @@
     <string name="added">new zashiotka have been added</string>
     <string name="profile_photo">profile photo</string>
     <string name="error_save">can\'t add zashiotka</string>
+    <string name="saved">new zashiotka have been added</string>
 </resources>

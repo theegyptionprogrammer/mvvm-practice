@@ -11,8 +11,8 @@ class ZashiotkaModuleView {
     @Inject
     lateinit var module: IZashiotkaModule
 
-    private val _mutableListData : MutableLiveData<MutableList<Zashiotka>> = MutableLiveData()
-    val mutableListData : LiveData<MutableList<Zashiotka>> = _mutableListData
+    private val _mutableListData : MutableLiveData<List<Zashiotka>> = MutableLiveData()
+    val mutableListData : LiveData<List<Zashiotka>> = _mutableListData
 
     init {
         Toothpick.inject(this, ApplicationScope.scope)
@@ -20,6 +20,10 @@ class ZashiotkaModuleView {
     }
 
     private fun loadData(){
-        _mutableListData.postValue(module.retriviveData().toMutableList())
+        module.retriviveData {nullableList ->
+            nullableList.let {
+                _mutableListData.postValue(it)
+            }
+        }
     }
 }

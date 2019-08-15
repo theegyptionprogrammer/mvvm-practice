@@ -4,6 +4,7 @@ import toothpick.Scope
 import toothpick.Toothpick
 import toothpick.config.Module
 
+
 object ApplicationScope {
     val scope: Scope = Toothpick.openScope(this).apply {
         installModules(ApplicationModule)
